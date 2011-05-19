@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+	<!--  <TextView  
+		android:id="@+id/staddress"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:padding="4dip"
+	    android:textSize="14sp"
+	    android:textColor="#000000"
+	    android:background="#00c5cd"
+	    />-->
+    
+    <WebView
+        android:id="@+id/weblink"
+    	android:layout_width="fill_parent" 
+    	android:layout_height="0dip"
+    	android:layout_weight="1"
+    	/>
+    	
+</LinearLayout>

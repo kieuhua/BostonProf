@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	 android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:background="#426f42">
+	
+    	  	<!--  TOPBAR -->
+	<RelativeLayout android:id="@+id/topbar"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:padding="2px" android:layout_marginTop="2px"
+		android:layout_gravity="center_horizontal">
+		
+		<ImageView android:id="@+id/eventboss"
+			android:src="@drawable/mysavedevents"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentTop="true"
+			android:layout_centerVertical="true"
+			></ImageView>
+		<!--  <ImageView android:id="@+id/currentview"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/eventboss"
+			android:src="@drawable/savedevents"
+			></ImageView>-->
+  		
+  		<ImageButton android:id="@+id/backbtn"
+  			android:src="@drawable/back_icon"
+  			android:layout_height="40px"
+			android:layout_width="40px"
+  			android:layout_alignParentRight="true"
+  			android:background="@color/deepskyblue"
+  			></ImageButton>
+			
+	</RelativeLayout>
+    	 			
+	<ListView android:id="@+id/android:list" 
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content"
+    	android:background="#00ff7f"/>
+	
+</LinearLayout>

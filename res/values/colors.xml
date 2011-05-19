@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <color name="white">#ffffffff</color>
+        <color name="black">#ff000000</color>
+        <color name="darkblue">#57A6CC</color>
+        <color name="lightblue">#D1E7F1</color>
+        <color name="darkgray">#666666</color>
+        <color name="mediumgray">#999999</color>
+        <color name="magenta">#ff00ff</color>
+        <color name="deepskyblue">#00bfff</color>
+        <color name="lawngreen">#7cfc00</color>
+        <color name="gold">#ffd700</color>
+        <color name="violetred3">#cd3278</color>
+        <color name="aquamarine">#029d74</color>
+</resources>
+
+

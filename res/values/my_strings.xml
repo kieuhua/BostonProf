@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="android_sax">Android SAX</string>
+    
+    <string name="etype">Type</string>
+    <string name="etitle">Title</string>
+    <string name="edate">Date</string>
+    <string name="elink">Link</string>
+    <string name="elocation">Location</string>
+    <string name="edescription">Description</string>
+    
+    <string name="save">Save Event</string>
+     <string name="delete">Delete Event</string>
+    <string name="myevents">My Events</string>
+    <string name="home">Home</string>
+    
+     <string name="eventinfo">Event Info</string>
+    
+    <string name="fields">Event Fields</string>
+    
+    <string name="display_event">Display Event</string>
+      
+    <string name="no_events">No Events Yet</string>
+  
+</resources>

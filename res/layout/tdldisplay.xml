@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#bf3eff"
+    >
+    
+     	  	<!--  TOPBAR -->
+	<RelativeLayout 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:padding="2px" android:layout_marginTop="2px"
+		android:layout_gravity="center_horizontal"
+		android:background="#ff7f24">
+		
+		<ImageView 
+			android:src="@drawable/typedatelocation"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentTop="true"
+			android:layout_centerVertical="true"
+			></ImageView>
+  		
+  		<ImageButton android:id="@+id/tdlbtn"
+  			android:src="@drawable/back_icon"
+  			android:layout_height="40px"
+			android:layout_width="40px"
+  			android:layout_alignParentRight="true"
+  			android:background="#ff7f24"
+  			></ImageButton>
+			
+	</RelativeLayout>
+    
+    <TextView  
+		android:id="@+id/typebody"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:padding="4dip"
+	    android:paddingBottom="100px"
+	    android:textSize="16sp"
+	    android:textColor="#800000"
+	    android:background="#bf3eff"
+	    />
+	<TextView  
+		android:id="@+id/datebody"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:padding="4dip"
+	    android:textSize="24sp"
+	    android:textColor="#00008b"
+	    android:paddingBottom="100px"
+	    android:background="#bf3eff"
+	    />
+	<TextView  
+		android:id="@+id/locationbody"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:padding="4dip"
+	    android:textSize="28sp"
+	    android:textColor="#000000"
+	    android:background="#bf3eff"
+	    />
+    
+    	
+</LinearLayout>
